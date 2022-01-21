@@ -1,0 +1,62 @@
+{% extends 'Main.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanitizers</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/dettolsani.jpg' %}"/>
+            <div class="box-element product">
+                <h6><strong>Dettol Sanitizer</strong></h6>
+                <hr>
+                <button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right;"><strong>Rs.500</strong></h4>
+
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/dabursani.png' %}"/>
+            <div class="box-element product">
+                <h6><strong>Dabur Sanitizer</strong></h6>
+                <hr>
+                <button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right"><strong>Rs.30</strong></h4>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/emasolspray.jpg' %}"/>
+            <div class="box-element product">
+                <h6><strong>Emasol Surface Sanitizer</strong></h6>
+                <hr>
+                <button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right;"><strong>Rs.500</strong></h4>
+
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/itcsani.jpg' %}"/>
+            <div class="box-element product">
+                <h6><strong>ITC Surface Sanitizer</strong></h6>
+                <hr>
+                <button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right"><strong>Rs.10</strong></h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock content %}

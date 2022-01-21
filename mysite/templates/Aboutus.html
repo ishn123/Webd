@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About us</title>
+    </head>
+    <h1>hello
+        <form action="{% url 'collect' %}" method="POST">
+            {% csrf_token %}
+            <label for="name">Enter name</label>
+            <input type="text" id="name" name="name">
+            <input type="submit">
+        </form>
+    </h1>
+</html>
